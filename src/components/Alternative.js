@@ -4,7 +4,7 @@ export const Alternative = ({ alternative }) => {
   return (
     <button
       type="button"
-      className="block w-full bg-gray-200 p-4 rounded my-2 hover:bg-gray-300"
+      className="text-lg block w-full p-4 rounded my-2 hover:bg-gray-400 bg-white"
     >
       {alternative.text}
     </button>
