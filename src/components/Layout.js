@@ -7,5 +7,5 @@ const backgroundImage = `linear-gradient(
 )`;
 
 export const Layout = props => (
-  <div className="px-12" style={{ backgroundImage }} {...props} />
+  <div className="px-12 h-screen" style={{ backgroundImage }} {...props} />
 );
