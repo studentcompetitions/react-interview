@@ -4,7 +4,7 @@ import { Alternative } from "./Alternative";
 
 export const Question = ({ question }) => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col justify-center h-screen text-center">
       <QuestionBody>{question.text}</QuestionBody>
       <div>
         {question.alternatives.map(alternative => (
