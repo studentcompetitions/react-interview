@@ -83,5 +83,5 @@ const questions = [
 ];
 
 export const api = {
-  getQuestions: () => new Promise(resolve => resolve(questions))
+  getQuestions: () => questions
 };
