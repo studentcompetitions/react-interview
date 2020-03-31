@@ -11,3 +11,8 @@ They're included for convenience, you don't have to use them unless you want to.
 ## The challenge
 
 Todays task is to add functionality to the boilerplate, so that a user can click through all of the questions. Presented one at the time. And display feedback based on the answers at the end of the quiz.
+
+## Start
+```js
+yarn tailwind:css && yarn start
+```
